@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./react.svg";
 
 // Configuration – CZ only (from the provided document)
 const config = {
@@ -93,7 +92,7 @@ const config = {
   ]
 };
 
-function App() {
+export default function App() {
   return (
     <div className="font-sans bg-black text-white min-h-screen">
       <header className="bg-black border-b border-white/10 sticky top-0 z-50">
@@ -148,5 +147,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
